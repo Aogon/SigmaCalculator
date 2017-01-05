@@ -34,8 +34,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="number"
                     android:ems="10"
-                    android:id="@+id/editText2"
-                    android:layout_weight="1" />
+                    android:id="@+id/editText2" />
 
                 <LinearLayout
                     android:orientation="horizontal"
@@ -49,13 +48,25 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/textView"
-                        android:textSize="50sp" />
+                        android:textSize="50sp"
+                        android:fontFamily="serif"
+                        android:gravity="center" />
 
                     <TextView
                         android:text="="
                         android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView3"
+                        android:textSize="36sp"
+                        android:gravity="center" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/textView3" />
+                        android:inputType="number"
+                        android:ems="10"
+                        android:id="@+id/editText3"
+                        android:layout_weight="1" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -69,7 +80,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/textView2"
-                        android:textSize="30sp" />
+                        android:textSize="30sp"
+                        android:fontFamily="serif" />
 
                     <EditText
                         android:layout_width="wrap_content"
