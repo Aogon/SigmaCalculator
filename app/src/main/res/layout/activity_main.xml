@@ -62,70 +62,6 @@
                         android:fontFamily="serif"
                         android:textColor="?android:attr/textColorPrimary" />
 
-                    <EditText
-                        android:layout_height="wrap_content"
-                        android:inputType="number"
-                        android:ems="2"
-                        android:id="@+id/edit_k2"
-                        android:layout_weight="1"
-                        android:layout_width="wrap_content"
-                        android:textSize="30sp"
-                        android:fontFamily="serif" />
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/textView5"
-                        android:gravity="center"
-                        android:background="@drawable/text_k2" />
-
-                    <TextView
-                        android:text="+"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/textView7"
-                        android:gravity="center"
-                        android:fontFamily="serif"
-                        android:textSize="50sp"
-                        android:textColor="?android:attr/textColorPrimary" />
-
-                    <EditText
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:inputType="number"
-                        android:ems="2"
-                        android:id="@+id/edit_k"
-                        android:layout_weight="1"
-                        android:textSize="30sp"
-                        android:fontFamily="serif" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/textView6"
-                        android:background="@drawable/text_k"
-                        android:gravity="center" />
-
-                    <TextView
-                        android:text="+"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/textView8"
-                        android:gravity="center"
-                        android:textSize="50sp"
-                        android:fontFamily="serif"
-                        android:textColor="?android:attr/textColorPrimary" />
-
-                    <EditText
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:inputType="number"
-                        android:ems="2"
-                        android:id="@+id/edit_constant"
-                        android:layout_weight="1"
-                        android:textSize="30sp"
-                        android:fontFamily="serif" />
 
                     <TextView
                         android:text=")"
@@ -182,7 +118,7 @@
                 android:fontFamily="serif"
                 android:textColor="?android:attr/textColorPrimary"
                 android:layout_marginLeft="40dp"
-                android:background="@android:drawable/alert_light_frame"
+                android:background="?attr/colorPrimary"
                 android:onClick="equal" />
 
             <TextView

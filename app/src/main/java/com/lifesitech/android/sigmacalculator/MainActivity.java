@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void equal(View v) {
+        answer = 0;
         n = Integer.parseInt(edit_n.getText().toString());
         start = Integer.parseInt(edit_start.getText().toString());
         k = Integer.parseInt(edit_k.getText().toString());
